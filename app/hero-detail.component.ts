@@ -10,6 +10,7 @@ import 'rxjs/add/operator/switchMap';
   moduleId: __filename, // should be module.id but throw some errors because webpack returns an integer while angular is waiting for a string...
   selector: 'my-hero-detail',
   templateUrl: './hero-detail.component.html',
+  styleUrls: ['./hero-detail.component.css']
 })
 
 export class HeroDetailComponent implements OnInit {
